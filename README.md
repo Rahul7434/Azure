@@ -1,4 +1,68 @@
-# Azure
+# Azure & AWS
+
+## AWS 
+
+### 🌩️ What is Cloud Computing?
+````
+Instead of buying your own big computer (servers, storage, network), you rent them from a company (like AWS) using the internet.
+You pay only for what you use (like electricity, water).
+
+Earlier companies used to buy their own infrastructure like servers, storage, and networking. But instead of building and maintaining all this, now we can use AWS cloud services. In AWS we only pay for what we use, like electricity or water bill.
+
+````
+#### Advantages
+```
+1.COST SAVING:-
+  In AWS we do not need to buy costly hardware
+  we pay only for what we use
+
+2.SCALABILITY & FLEXIBILITY:-
+  If work load increases, we can aquickly add more storage or servers.
+  If workload decreases, we can reduce resources
+
+3.High Availability & Reliability:-
+  AWS has multiple regions and availability zones.
+  Even if one datacenter fails, our application can run from another.
+
+4.Global Reach:
+  AWS has datacenters all over the world.
+  We can host applications closer to users (low latency).
+
+5.Security:-
+AWS follows high-level security standards.
+Features like IAM (Identity & Access Management) help us control access.
+
+6.Managed Services:-
+We don’t have to manage everything.
+Example: AWS RDS manages database backups, patching, and updates automatically.
+
+7.Innovation & Variety:-
+AWS provides 200+ services (AI, Machine Learning, IoT, Big Data).
+We can choose the right tool as per requirement.
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 AZ 900 - Azure Fundamentals
 - Understand cloud models, Azure services, pricing, and governance.
