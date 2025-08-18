@@ -46,12 +46,12 @@ We can choose the right tool as per requirement.
 AWS provides Infracture as service, Platform as Service, Swaftware as service.
 
 Usually in On-Premises we need to buy and Manage all things we are responsible for all 100%.
-Application, Data, Runtime, Middleware, OS, Virtulzation, Servers, Storage, Networking.
+Application, Data, Runtime, Middleware, OS, Virtulzation, Servers,Security, Storage, Networking.
 
-1.AWS provides [Networking, Storage, Servers,Virtulization] Services in Infracture as service. 
-WE do not need to Manage all this things installation, buying servers, storage, network switch etc.., 
-2.AWS provides [Networking, Storage, Servers,Virtulization, OS, Middleware, Runtime] services in Platform as service.
-3.AWS provides [Networking, Storage, Servers,Virtulization, OS, Middleware, Runtime, data , Application] services in Platform as service.
+1.AWS provides [Networking, Storage, Servers,Virtulization,Security] Services in Infracture as service. 
+WE do not need to Manage all this things installation buying server, storage, network switch etc.., 
+2.AWS provides [Networking, Storage, Servers,Virtulization, OS, Middleware, Runtime,Security] services in Platform as service.
+3.AWS provides [Networking, Storage, Servers,Virtulization, OS, Middleware, Runtime, data , Application,Security] services in Platform as service.
 ```
 
 
