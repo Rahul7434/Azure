@@ -10,7 +10,7 @@ You pay only for what you use (like electricity, water).
 Earlier companies used to buy their own infrastructure like servers, storage, and networking. But instead of building and maintaining all this, now we can use AWS cloud services. In AWS we only pay for what we use, like electricity or water bill.
 
 ````
-#### Advantages
+#### 🌟 Advantages of AWS
 ```
 1.COST SAVING:-
   In AWS we do not need to buy costly hardware
@@ -41,7 +41,18 @@ AWS provides 200+ services (AI, Machine Learning, IoT, Big Data).
 We can choose the right tool as per requirement.
 
 ```
+🏗️ Services of AWS
+```
+AWS provides Infracture as service, Platform as Service, Swaftware as service.
 
+Usually in On-Premises we need to buy and Manage all things we are responsible for all 100%.
+Application, Data, Runtime, Middleware, OS, Virtulzation, Servers, Storage, Networking.
+
+1.AWS provides [Networking, Storage, Servers,Virtulization] Services in Infracture as service. 
+WE do not need to Manage all this things installation, buying servers, storage, network switch etc.., 
+2.AWS provides [Networking, Storage, Servers,Virtulization, OS, Middleware, Runtime] services in Platform as service.
+3.AWS provides [Networking, Storage, Servers,Virtulization, OS, Middleware, Runtime, data , Application] services in Platform as service.
+```
 
 
 
