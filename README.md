@@ -43,18 +43,210 @@ We can choose the right tool as per requirement.
 ```
 🏗️ Services of AWS
 ```
-AWS provides Infracture as service, Platform as Service, Swaftware as service.
+AWS provides
+1.Infracture as a service,
+2.Platform as a Service,
+3.Swaftware as a service.
 
-Usually in On-Premises we need to buy and Manage all things we are responsible for all 100%.
-Application, Data, Runtime, Middleware, OS, Virtulzation, Servers,Security, Storage, Networking.
 
-1.AWS provides [Networking, Storage, Servers,Virtulization,Security] Services in Infracture as service. 
-WE do not need to Manage all this things installation buying server, storage, network switch etc.., 
-2.AWS provides [Networking, Storage, Servers,Virtulization, OS, Middleware, Runtime,Security] services in Platform as service.
-3.AWS provides [Networking, Storage, Servers,Virtulization, OS, Middleware, Runtime, data , Application,Security] services in Platform as service.
+🔵 0. On-Premises () :- 
+👉 Company owns everything – from hardware to applications.
+We Manage all (100% Responsibility)
+
+1.Networking (switches, routers, firewalls)
+2.Storage (disks, SAN/NAS)
+3.Servers (physical machines)
+4.Virtualization (VMware, Hyper-V)
+5.OS (Windows/Linux installation & patching)
+6.Middleware (web servers, app servers)
+7.Runtime (Java, .NET, Python environments)
+8.Data (databases, files)
+9.Applications (ERP, CRM, websites, etc.)
+10.Security (firewalls, access control, backups, DR)
+
+🟢 1. IaaS (Infrastructure as a Service)
+
+👉 AWS provides raw infrastructure (compute, storage, networking, virtualization, physical security).
+👉 You install and manage OS, DB, and applications.
+
+You Manage
+
+OS
+
+Middleware
+
+Runtime
+
+Data
+
+Applications
+
+AWS Manages
+
+Networking
+
+Storage
+
+Servers (hardware)
+
+Virtualization
+
+Security (infrastructure-level)
+
+✅ AWS IaaS Services
+⚡ Compute
+
+EC2 (Elastic Compute Cloud – virtual servers)
+
+EC2 Auto Scaling (automatic scaling of servers)
+
+Elastic Load Balancer (ELB) (distribute traffic)
+
+💾 Storage
+
+EBS (Elastic Block Storage – hard disks for EC2)
+
+EFS (Elastic File System – shared storage)
+
+S3 (object storage)
+
+Glacier / S3 Glacier (long-term backup)
+
+Storage Gateway (hybrid storage between AWS & on-prem)
+
+🌐 Networking
+
+VPC (Virtual Private Cloud)
+
+Elastic IPs
+
+Direct Connect
+
+VPN
+
+Transit Gateway
+
+🔒 Security & Access
+
+IAM (Identity & Access Management)
+
+KMS (Key Management Service)
+
+CloudHSM
+
+Shield, WAF
+
+📊 Monitoring
+
+CloudWatch (monitoring infra)
+
+CloudTrail (logs and auditing)
+
+🎯 Interview Line:
+
+“In IaaS, AWS provides infrastructure like EC2, EBS, S3, and VPC. I still manage OS, runtime, data, and applications.”
+
+
+🟡 2. PaaS (Platform as a Service)
+
+👉 AWS provides infrastructure + platform (OS, middleware, runtime).
+👉 You only focus on data & applications.
+
+You Manage
+
+Data
+
+Applications
+
+AWS Manages
+
+Networking
+
+Storage
+
+Servers
+
+Virtualization
+
+OS
+
+Middleware
+
+Runtime
+
+Security
+
+✅ AWS PaaS Services
+⚡ Databases (Managed DBs)
+
+RDS (Relational Database Service: MySQL, PostgreSQL, SQL Server, Oracle)
+
+Aurora (AWS proprietary DB)
+
+DynamoDB (NoSQL DB)
+
+ElastiCache (Redis/Memcached cache service)
+
+⚡ Application Services
+
+Elastic Beanstalk (easy app deployment)
+
+Lambda (serverless code execution)
+
+API Gateway (API management)
+
+⚡ Analytics / Integration
+
+Kinesis (real-time streaming data)
+
+Glue (ETL service)
+
+EMR (Hadoop/Spark clusters, managed)
+
+
+🔴 3. SaaS (Software as a Service)
+
+👉 AWS (or vendor) provides full application ready to use.
+👉 You don’t manage anything, just use the software.
+
+You Manage
+
+Nothing (only use application)
+
+AWS Manages
+
+Everything (Networking → Application)
+
+✅ AWS SaaS Services
+
+WorkMail (managed email service)
+
+Chime (video conferencing, collaboration)
+
+QuickSight (Business Intelligence dashboards)
+
+Connect (cloud contact center / call center solution)
+
+Cognito (partially SaaS) (user authentication, login for apps)
+
+Many Marketplace SaaS apps (3rd party on AWS Marketplace)
+
 ```
+```
+| Layer          | On-Prem | IaaS   | PaaS   | SaaS |
+| -------------- | ------- | ------ | ------ | ---- |
+| Applications   | You     | You    | You    | AWS  |
+| Data           | You     | You    | You    | AWS  |
+| Runtime        | You     | You    | AWS    | AWS  |
+| Middleware     | You     | You    | AWS    | AWS  |
+| OS             | You     | You    | AWS    | AWS  |
+| Virtualization | You     | AWS    | AWS    | AWS  |
+| Servers        | You     | AWS    | AWS    | AWS  |
+| Storage        | You     | AWS    | AWS    | AWS  |
+| Networking     | You     | AWS    | AWS    | AWS  |
+| Security       | You     | Shared | Shared | AWS  |
 
-
+```
 
 
 
