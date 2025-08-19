@@ -149,7 +149,37 @@ Many Marketplace SaaS apps (3rd party on AWS Marketplace)
 
 ```
 
+🌐 Key Components of AWS Global Infrastructure
+```
+1. Regions
+A Region is a geographical area where AWS has multiple data centers.
+Each Region is isolated for fault tolerance and compliance.
+AWS currently has 37 launched Regions with plans for more.
 
+2. Availability Zones (AZs)
+AZs are physically separate data centers within a Region.
+They’re designed for high availability—if one AZ fails, thers can take over.
+Each Region has at least three AZs, ensuring resilience
+
+3. Edge Locations
+These are part of Amazon CloudFront, AWS’s content delivery network (CDN).
+They cache content closer to users for low-latency delivery.
+AWS has 700+ CloudFront Points of Presence (POPs) globally.
+
+4. Local Zones & Wavelength Zones
+Local Zones extend AWS services to metro areas for ultra-low latency.
+Wavelength Zones are designed for 5G mobile edge computing.
+
+5. Global Network Backbone
+AWS uses 6+ million kilometers of fiber optic cabling to connect its infrastructure.
+This ensures fast data transfer, low latency, and high throughput.
+
+🛡️ Benefits of AWS Global Infrastructure
+High Availability: Multiple AZs per Region ensure uptime.
+Scalability: Easily expand across Regions and Zones.
+Security & Compliance: Meets strict global standards.
+Low Latency: Edge locations and local zones bring services closer to users.
+```
 
 
 
