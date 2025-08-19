@@ -161,7 +161,7 @@ AZs are physically separate data centers within a Region.
 They’re designed for high availability—if one AZ fails, thers can take over.
 Each Region has at least three AZs, ensuring resilience
 
-3. Edge Locations
+3. Edge Locations & regional Edge location
 These are part of Amazon CloudFront, AWS’s content delivery network (CDN).
 They cache content closer to users for low-latency delivery.
 AWS has 700+ CloudFront Points of Presence (POPs) globally.
