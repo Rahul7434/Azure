@@ -191,6 +191,9 @@ You can choose from pre-built Amazon Machine Images (AMIs) or create your own, g
 Overall, EC2 is ideal for hosting websites, backend services, data processing jobs, and even gaming servers. And since it's pay-as-you-go, it's cost-efficient—you only pay for the compute time you actually use."
 ```
 
+```
+
+```
 
 
 
