@@ -76,13 +76,17 @@ Deployment model means how we decide to use cloud — whether private, public, h
 Azure provides services through three main cloud models:
 
 * IaaS (Infrastructure as a Service):
-Cloud gives virtualization — VMs, storage, networking. We manage installation, updates, maintenance, applications, and middleware.
+Cloud gives virtualization, storage, networking, servers.
+We manage installation,patching, connectivity firewall rules, Database configuration.  azure does not provide these (os,midaleware,runtime,data,application).
 
 * PaaS (Platform as a Service):
-Cloud provides virtulization, OS (Linux, Windows), network, storage, VMs, and installation. We focus only on building and running applications.
+Cloud provides virtulization, OS (Linux, Windows), network, storage, servers, Runtime,Midaleware.
+Azure handles os,patching,backups,scalling,high availability.
+We focus only on building and running applications.
 
 * SaaS (Software as a Service):
-Cloud provides everything — OS, middleware, applications. We just use the software (like Office 365, Gmail, Salesforce).
+Cloud provides everything — Azure will manage everything.
+We just use the software (like Office 365, Gmail, Salesforce).
 
 
 One-Line Definition for Interviews: 
