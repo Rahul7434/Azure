@@ -70,22 +70,19 @@ A separate cloud infrastructure built for a specific community — like healthca
 ```
 
 
-
 ##### Cloud deployement Models:
+Deployment model means how we decide to use cloud — whether private, public, hybrid, multicloud, or community.
 ```
 Azure provides services through three main cloud models:
 
 * IaaS (Infrastructure as a Service):
-Provides virtualized computing resources such as VMs, storage, and networking.
-Example: Azure Virtual Machines
+Cloud gives virtualization — VMs, storage, networking. We manage installation, updates, maintenance, applications, and middleware.
 
 * PaaS (Platform as a Service):
-Provides a platform for developing, deploying, and managing applications without managing the underlying infrastructure.
-Example: Azure App Service
+Cloud provides virtulization, OS (Linux, Windows), network, storage, VMs, and installation. We focus only on building and running applications.
 
 * SaaS (Software as a Service):
-Provides fully managed software applications accessible over the internet.
-Example: Microsoft 365
+Cloud provides everything — OS, middleware, applications. We just use the software (like Office 365, Gmail, Salesforce).
 
 
 One-Line Definition for Interviews: 
