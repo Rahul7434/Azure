@@ -47,12 +47,32 @@ Azure has datacenters located around the world, allowing organizations to deploy
       1.On-premises: Companies owned and managed all hardware.
       2.Virtualization: One physical server could host multiple systems, reducing hardware needs.
       3.Cloud computing: Infrastructure and services delivered online, flexible, scalable, and cost-efficient.
-
+```
 
 ##### Types of Cloud:
+```
+🌩 Types of Cloud
+Private Cloud:  
+Here we manage everything ourselves — network, firewall rules, and security. It is expensive because responsibility is on us. No public network, only our own private network.
+
+Public Cloud:  
+Here Azure (or any provider) is responsible. It’s a public network, like the internet we use on mobile. Less expensive, but security is comparatively less because it’s shared.
+
+Hybrid Cloud:  
+Combination of both — some VMs and services on cloud, some on our own datacenter. We can use both together.
+
+Multicloud:  
+This means using more than one cloud provider at the same time. For example, Azure + AWS, or two private clouds, or two public clouds. Companies do this for flexibility, avoiding vendor lock-in, or using best features of each provider.
+
+Community Cloud:  
+A separate cloud infrastructure built for a specific community — like healthcare, government, or education. Only that community uses it, with rules and services tailored for them.
+
+```
+
+
 
 ##### Cloud deployement Models:
-
+```
 Azure provides services through three main cloud models:
 
 * IaaS (Infrastructure as a Service):
