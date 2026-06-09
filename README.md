@@ -12,7 +12,8 @@
 
 ##### What is cloud:- 
 ```
-Microsoft Azure is Microsoft's cloud computing platform that provides IT infrastructure and services over the internet. Instead of purchasing, maintaining, and managing our own datacenters, we can rent the resources we need from Azure and pay only for what we use.
+Microsoft Azure is Microsoft's cloud computing platform that provides IT infrastructure and services over the internet.
+Instead of purchasing, maintaining, and managing our own datacenters, we can rent the resources we need from Azure and pay only for what we use.
 
 * Azure offers a wide range of services, including:
     1.Virtual Machines (VMs)
@@ -47,25 +48,27 @@ Azure has datacenters located around the world, allowing organizations to deploy
       2.Virtualization: One physical server could host multiple systems, reducing hardware needs.
       3.Cloud computing: Infrastructure and services delivered online, flexible, scalable, and cost-efficient.
 
-```
+
 ##### Cloud Service Models:
-```
+
 Azure provides services through three main cloud models:
 
 * IaaS (Infrastructure as a Service):
 Provides virtualized computing resources such as VMs, storage, and networking.
-
 Example: Azure Virtual Machines
 
 * PaaS (Platform as a Service):
 Provides a platform for developing, deploying, and managing applications without managing the underlying infrastructure.
-
 Example: Azure App Service
 
 * SaaS (Software as a Service):
 Provides fully managed software applications accessible over the internet.
-
 Example: Microsoft 365
+
+
+One-Line Definition for Interviews: 
+Microsoft Azure is a cloud computing platform that provides on-demand infrastructure, platforms,
+and software services over the internet, enabling organizations to build, deploy, and scale applications without managing physical datacenters.
 ```
 
 
