@@ -49,7 +49,9 @@ Azure has datacenters located around the world, allowing organizations to deploy
       3.Cloud computing: Infrastructure and services delivered online, flexible, scalable, and cost-efficient.
 
 
-##### Cloud Service Models:
+##### Types of Cloud:
+
+##### Cloud deployement Models:
 
 Azure provides services through three main cloud models:
 
