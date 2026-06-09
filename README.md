@@ -127,6 +127,40 @@ One-Line Definition for Interviews:
 Microsoft Azure is a cloud computing platform that provides on-demand infrastructure, platforms,
 and software services over the internet, enabling organizations to build, deploy, and scale applications without managing physical datacenters.
 ```
+##### Accessing and Managing Azure Datacenters
+
+```
+Microsoft Azure has datacenters across the world. To manage these datacenters and cloud resources, Azure provides different management tools such as Azure Portal, Azure CLI, Azure PowerShell, and REST APIs.
+
+The most common way to manage Azure resources is through the Azure Portal (portal.azure.com). We can access it from a desktop, laptop, tablet, or mobile device using an internet connection.
+
+First, we need to create an Azure account and sign in. After creating the account, we get an Azure Subscription. The subscription is the primary unit for managing resources, billing, and costs in Azure.
+
+Once we have a subscription, we can create and manage resources such as Virtual Machines (VMs), Storage Accounts, Databases, Virtual Networks, and many other Azure services.
+
+The subscription is the main boundary for billing, cost management, access control, and resource management. Azure provides different subscription types, such as Free Trial and Pay-As-You-Go.
+
+To create an Azure account, we generally need an email address and a debit or credit card for verification purposes.
+
+In large organizations, a single subscription is usually not enough. Multiple subscriptions are created to separate Production, UAT, and Development environments or to manage resources for different teams and business units. This helps with cost tracking, access control, governance, and resource organization.
+
+For example, one subscription may be dedicated to Production workloads, another for UAT, and another for Development, making the environment easier to manage and monitor.
+
+Company
+│
+├── Production Subscription
+│   ├── VMs
+│   ├── Databases
+│   └── Storage
+│
+├── UAT Subscription
+│
+└── Development Subscription
+
+Each subscription has its own resources, billing, permissions, and policies, which helps organizations manage their cloud environment efficiently.
+
+
+```
 
 
 
