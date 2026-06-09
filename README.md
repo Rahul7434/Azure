@@ -88,6 +88,40 @@ We focus only on building and running applications.
 Cloud provides everything — Azure will manage everything.
 We just use the software (like Office 365, Gmail, Salesforce).
 
+```
+##### Azure Global Infrastructure Hierarchy
+
+```
+Geographies:  
+Large areas that usually align with a country or continent (e.g., India, Europe, US). Geographies are defined to meet data residency and compliance requirements.
+
+Regions:  
+Each geography contains multiple regions. A region is a specific location (like Central India, West Europe, East US).
+👉 Each region is made up of one or more datacenters connected with a dedicated low-latency network.
+
+Availability Zones:  
+Within a region, there are typically 3 availability zones separated by 100–200 km (when possible).
+Each zone has independent power, cooling, and networking.
+👉 If one zone goes down, the others keep services running.
+
+Datacenters:  
+Inside each availability zone, there are multiple datacenters.
+Each datacenter has racks of servers, storage, and networking equipment.
+👉 Datacenters are connected with private fiber-optic networks for speed and redundancy.
+
+Racks & Servers:  
+At the lowest level, racks contain servers.
+Each rack has its own power source, and racks are interconnected for resilience.
+
+🔑 Corrected Hierarchy
+So the full hierarchy looks like this:
+
+Geography (country/continent)  
+ → Region (specific location)  
+  → Availability Zones (separate power/network zones)  
+   → Datacenters (multiple buildings)  
+    → Racks (servers, storage, networking)
+
 
 One-Line Definition for Interviews: 
 Microsoft Azure is a cloud computing platform that provides on-demand infrastructure, platforms,
