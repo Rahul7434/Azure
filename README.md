@@ -162,8 +162,49 @@ Each subscription has its own resources, billing, permissions, and policies, whi
 
 ```
 
+#### What is a Virtual Machine (VM)?
+
+```
+A Virtual Machine (VM) is a software-based computer that runs on physical servers in a datacenter. It behaves like a real computer and has its own:
+
+CPU
+Memory (RAM)
+Storage (Disk)
+Operating System (Windows/Linux)
+Network connectivity
+
+Using a VM, we can install applications, databases, runtime environments, and other software just like on a physical server.
+
+Types of Azure Virtual Machines
+
+Azure provides different VM families based on workload requirements:
+
+General Purpose
+Balanced CPU and memory.
+Suitable for web servers, small databases, and development environments.
+Example: B-series, D-series.
+Compute Optimized
+High CPU compared to memory.
+Suitable for application servers, batch processing, and gaming servers.
+Example: F-series.
+Memory Optimized
+High memory compared to CPU.
+Suitable for large databases, caching, and in-memory applications.
+Example: E-series, M-series.
+Storage Optimized
+High disk throughput and IOPS.
+Suitable for big data, data warehousing, and large transactional databases.
+Example: Lsv3-series.
+GPU Optimized
+Includes GPUs for graphics and AI workloads.
+Suitable for machine learning, deep learning, and video rendering.
+Example: NC, ND, NV series.
+Interview Definition
+
+A Virtual Machine is a software-defined computer running on Azure's physical infrastructure. It provides virtualized CPU, memory, storage, and networking resources, allowing us to run Windows or Linux operating systems and host applications without managing physical hardware. Azure offers different VM families such as General Purpose, Compute Optimized, Memory Optimized, Storage Optimized, and GPU Optimized based on workload requirements
 
 
+```
 
 
 
