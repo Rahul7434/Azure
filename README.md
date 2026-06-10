@@ -97,23 +97,23 @@ Large areas that usually align with a country or continent (e.g., India, Europe,
 
 Regions:  
 Each geography contains multiple regions. A region is a specific location (like Central India, West Europe, East US).
-👉 Each region is made up of one or more datacenters connected with a dedicated low-latency network.
+  Each region is made up of one or more datacenters connected with a dedicated low-latency network.
 
 Availability Zones:  
 Within a region, there are typically 3 availability zones separated by 100–200 km (when possible).
 Each zone has independent power, cooling, and networking.
-👉 If one zone goes down, the others keep services running.
+  If one zone goes down, the others keep services running.
 
 Datacenters:  
 Inside each availability zone, there are multiple datacenters.
 Each datacenter has racks of servers, storage, and networking equipment.
-👉 Datacenters are connected with private fiber-optic networks for speed and redundancy.
+  Datacenters are connected with private fiber-optic networks for speed and redundancy.
 
 Racks & Servers:  
 At the lowest level, racks contain servers.
 Each rack has its own power source, and racks are interconnected for resilience.
 
-🔑 Corrected Hierarchy
+Corrected Hierarchy
 So the full hierarchy looks like this:
 
 Geography (country/continent)  
@@ -158,6 +158,29 @@ Company
 └── Development Subscription
 
 Each subscription has its own resources, billing, permissions, and policies, which helps organizations manage their cloud environment efficiently.
+
+Resource Group:
+A resource group is like a container in Azure.
+It holds related resources for an application or project.
+Example: For your entertainment app, you can keep VM, database, storage account, and networking inside one resource group.
+   It makes management easy: you can monitor, apply policies, or delete everything together.
+
+Resource:
+A resource is the actual service or item you create in Azure.
+Examples:
+VM (Virtual Machine)
+SQL Database
+Storage Account
+Virtual Network
+App Service
+
+Each resource belongs to a resource group.
+
+Relationship:
+Subscription → Resource Groups → Resources
+Subscription is the billing account.
+Resource groups organize resources.
+Resources are the actual services you use.
 
 
 ```
