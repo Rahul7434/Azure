@@ -473,7 +473,19 @@ and the need to manage the operating system and security updates ourselves.
 ```
 1. Availability Set
 2. Availability Zone
-3. Availability Scale Set\
+3. Availability Scale Set
+
+Azure infrastructure is organized as Geography → Region → Availability Zone → Datacenter → Rack → Server.
+A Region can contain multiple Availability Zones. Each Availability Zone has independent power, cooling, and networking.
+
+Inside datacenters, servers are organized into racks.
+An Availability Set distributes VMs across different Fault Domains and Update Domains, protecting against rack failures and maintenance events within the same datacenter.
+
+If an entire datacenter goes down, Availability Sets cannot help. To protect against datacenter failures, Azure provides Availability Zones, where VMs are deployed across physically separate datacenters in the same region.
+
+VM Scale Sets are used to automatically create, remove, and manage multiple identical VMs based on demand, while also supporting distribution across Fault Domains and Availability Zones for high availability.
+Your overall understanding is about 80–85% correct. The main thing to fix is:
+"VM assigned to line 1, VM assigned to line 2" = Availability Set (Fault Domains), not Scale Set.
 
 
 ```
