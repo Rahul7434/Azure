@@ -470,6 +470,13 @@ and the need to manage the operating system and security updates ourselves.
 
 #### High Availability
 
+```
+1. Availability Set
+2. Availability Zone
+3. Availability Scale Set\
+
+
+```
 
 
 
