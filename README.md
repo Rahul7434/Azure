@@ -475,7 +475,8 @@ and the need to manage the operating system and security updates ourselves.
 2. Availability Zone
 3. Availability Scale Set
 
-Azure infrastructure is organized as Geography → Region → Availability Zone → Datacenter → Rack → Server.
+Azure infrastructure is organized as Geography ( based on countries or groups of countries to meet data residency, compliance, and legal requirements.) → Region
+→ Availability Zone → Datacenter → Rack → Server.
 A Region can contain multiple Availability Zones. Each Availability Zone has independent power, cooling, and networking.
 
 Inside datacenters, servers are organized into racks.
